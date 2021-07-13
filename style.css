@@ -1,0 +1,343 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    background: #eee;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background: #eeeeee;
+    top: 0;
+    height: 90px;
+    position: fixed;
+    margin-bottom: 35px;
+    align-items: center;
+}
+#header-img {
+    max-width: 95px;
+}
+
+#title_img {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+    margin-top: 50px;
+    padding-top: 10px;
+    color: #ff7e36;
+    margin-left: 2px;
+}
+
+#nav-bar {
+    display: flex;
+
+    margin-top: 10px;
+    margin-left: 24%;
+}
+#nav-bar ul {
+    display: flex;
+    list-style: none;
+    margin-top: 28px;
+    margin-left: 111px;
+}
+
+#nav-bar li {
+    margin: 5px 13px;
+    color: white;
+    text-decoration: none;
+}
+
+#nav-bar li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+#contenedor {
+    height: auto;
+    margin-top: 12%;
+}
+#title_contact {
+    font-size: 1.8rem;
+    text-align: center;
+}
+form {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+#email {
+    width: 20%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#submit {
+    background: #fff52b;
+    padding: 5px;
+    width: 8%;
+    font-size: 1rem;
+    font-weight: 900;
+    border: 2px solid #e4d550;
+}
+#Nuestros_Servicios ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 34%;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 30%;
+    margin-top: 4%;
+    padding: 20px;
+    border: 8px solid white;
+    list-style: none;
+}
+#ul-img {
+    width: 30%;
+    margin-left: -15px;
+}
+
+#video {
+    margin-top: 50px;
+    display: flex;
+    margin-left: 31%;
+    justify-content: center;
+}
+
+#Nuestros_Ofertas {
+    display: inline-flex;
+    justify-content: center;
+    width: 94%;
+    height: 440px;
+    font-size: large;
+
+}
+
+#Nuestros_Ofertas h3 {
+    margin-top: 0px;
+    padding: 10px;
+    background: #fff52b;
+}
+
+#Nuestros_Ofertas li p {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#Nuestros_Ofertas ul {
+    display: flex;
+    width: 83%;
+    height: 350px;
+    margin-top: 10px;
+}
+
+#Nuestros_Ofertas li {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    border: 2px solid #ff875b;
+    margin-left: 60px;
+    background: #ffd1a28c;
+    text-align: center;
+    margin-top: 90px;
+}
+
+#submit-ofertas {
+    padding: 6px;
+    margin-left: 34%;
+    margin-top: 13px;
+    width: 31%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background: #ff6643;
+}
+
+/* footer */
+
+footer{
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 0px;
+    
+ }
+
+ footer  ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+ }
+
+ footer li {
+    padding: 0 10px;
+}
+
+footer li a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+}
+
+@media screen and (max-width:768px)
+{
+    #title_img {
+        width: 10%;
+        font-size: 1.5rem;
+        margin-top: 28px;
+    }
+    #nav-bar ul {
+         margin-left: 0;
+    }
+    #video {
+        margin-left: 16%;
+    }
+
+    #Nuestros_Ofertas ul {
+        width: 100%;
+        height: 385px;
+    }
+    #submit-ofertas {
+        margin-left: 22%;
+        width: 53%;
+    }
+}
+
+@media screen and (max-width: 544px)
+{
+    header {
+        height: auto;
+        display: block;
+    }
+    #header-img {
+        max-width: 13%;
+        margin-left: 24%;
+        margin-top: 6%;
+    }
+    #title_img {
+        font-size: 2.5rem;
+        margin-top: -12%;
+        margin-left: 37%;
+    }
+
+    #nav-bar {
+        display: flex;
+        margin-top: -47%;
+        margin-left: -25%;
+    }
+    #nav-bar ul {
+        margin-top: 220px;
+        font-size: 1.3rem;
+        margin-left: 150px;
+    }
+    #contenedor {
+        margin-top: 50%;
+    }
+
+    #title_contact {
+        font-size: 3.8rem;
+        margin-left: 18px;
+    }
+
+    form {
+        margin-left:23px;
+    }
+    #email {
+        width: 60%;
+        font-size: 2rem;
+        padding: 9px;
+    }
+
+    #submit {
+        padding: 5px;
+        margin-top: 20px;
+        width: 42%;
+        font-size: 2rem;
+    }
+
+    #Nuestros_Servicios ul {
+        margin-left: 7%;
+        font-size: 2rem;
+        width: 79%;
+        margin-top: 10%;
+    }
+
+    #video {
+        margin-left: 0%;
+        width: 100%;
+    }
+    #Nuestros_Ofertas {
+        margin-left: -6%;
+    }
+    #Nuestros_Ofertas ul {
+        max-width: 300px;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #Nuestros_Ofertas li {
+        width: 90%;
+        margin-top: 15%;
+    }
+    footer{
+        position: fixed;       
+     }
+}
+
+
+@media screen and (max-width: 320px){
+    header {
+        width: 100%;
+        position: fixed;
+    }
+    #header-img {
+        margin-left: 35%;
+        margin-top: 0%;
+        max-width: 120px;
+    }
+    #title_img {
+        margin-top: 1%;
+        margin-left: 20%;
+        width: max-content;
+    }
+    #nav-bar {
+        display: flex;
+        margin-top: -47%;
+        margin-left: -30%;
+    }
+    #nav-bar ul {
+        margin-top: 158px;
+        width: 78%;
+        font-size: 1.3rem;
+        margin-left: 75px;
+    }
+    
+    #contenedor {
+        margin-top: 97%;
+    }
+
+    #email {
+        font-size: 1rem;
+    }
+    #Nuestros_Servicios ul {
+        margin-left: 13%;
+    }
+    #video {
+        width: 120%;
+        margin-left: 0%;
+    }
+
+}
